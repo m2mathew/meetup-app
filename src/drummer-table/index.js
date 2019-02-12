@@ -26,7 +26,7 @@ const styles = theme => ({
 });
 
 // Component Definition
-function DrummerList(props) {
+function DrummerTable(props) {
   const { classes } = props;
 
   return (
@@ -54,8 +54,8 @@ function DrummerList(props) {
   );
 }
 
-DrummerList.propTypes = {
+DrummerTable.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(DrummerList);
+export default withStyles(styles)(DrummerTable);

@@ -1,7 +1,8 @@
 import Paper from '@material-ui/core/Paper';
 import React, { Component } from 'react';
 
-import DrummerList from '../drummer-list';
+// import DrummerGrid from '../drummer-grid';
+// import DrummerTable from '../drummer-table';
 import TopNav from './TopNav';
 import Footer from './Footer';
 
@@ -12,7 +13,8 @@ class Root extends Component {
       <Paper square>
         <div className="App">
           <TopNav />
-          {/* <DrummerList /> */}
+          {/* <DrummerTable /> */}
+          {/* <DrummerGrid /> */}
           <Footer />
         </div>
       </Paper>
