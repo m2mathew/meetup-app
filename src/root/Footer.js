@@ -1,15 +1,17 @@
+import Button from '@material-ui/core/Button';
 import React from 'react';
 
 // Component Definition
 const Footer = () => (
   <footer
     style={{
-      margin: '32px 0',
+      marginTop: 32,
       padding: '32px 0',
       textAlign: 'center',
     }}
   >
-    <a
+    <Button
+      color="secondary"
       href="https://material-ui.com"
       target="_blank"
       rel="noopener noreferrer"
@@ -18,9 +20,10 @@ const Footer = () => (
         fontFamily: 'Roboto',
         textDecoration: 'none',
       }}
+      variant="outlined"
     >
       Learn Material-UI
-    </a>
+    </Button>
   </footer>
 );
 
