@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 
-// Local Variables
-const theme = createMuiTheme();
+import theme from './utils/theme';
 
 // Component Definition
 class App extends Component {
