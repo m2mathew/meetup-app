@@ -1,24 +1,19 @@
+import Paper from '@material-ui/core/Paper';
 import React, { Component } from 'react';
 
 import TopNav from './TopNav';
+import Footer from './Footer';
 
 // Component Definition
 class Root extends Component {
   render() {
     return (
+      <Paper square>
         <div className="App">
           <TopNav />
-          <header className="App-header">
-            <a
-              className="App-link"
-              href="https://material-ui.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Material-UI
-            </a>
-          </header>
+          <Footer />
         </div>
+      </Paper>
     );
   }
 }
