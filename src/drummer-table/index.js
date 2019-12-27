@@ -13,8 +13,6 @@ import drummers from '../utils/constants';
 // Local Variables
 const styles = theme => ({
   root: {
-    // display: 'flex',
-    // justifyContent: 'center',
     margin: '0 64px',
     marginTop: theme.spacing.unit * 3,
     overflowX: 'auto',
@@ -31,7 +29,6 @@ function DrummerTable(props) {
 
   return (
     <Paper className={classes.root}>
-
       <Table className={classes.table}>
         <TableHead>
           <TableRow>
@@ -41,7 +38,10 @@ function DrummerTable(props) {
         </TableHead>
         <TableBody>
           {drummers.map(row => (
-            <TableRow hover key={row.name}>
+            <TableRow
+              // hover
+              key={row.name}
+            >
               <TableCell component="th" scope="row">
                 {row.name}
               </TableCell>

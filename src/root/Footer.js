@@ -11,16 +11,14 @@ const Footer = () => (
     }}
   >
     <Button
-      color="secondary"
+      color="primary"
       href="https://material-ui.com"
       target="_blank"
       rel="noopener noreferrer"
       style={{
-        color: 'black',
-        fontFamily: 'Roboto',
-        textDecoration: 'none',
+        color: '#fafafa',
       }}
-      variant="outlined"
+      variant="contained"
     >
       Learn Material-UI
     </Button>
